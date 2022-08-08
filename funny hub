@@ -20,6 +20,10 @@ local Window = Library.CreateLib("Clouds Hub", "Midnight")
    MainSection:NewButton("Audio Hash V2", "Hash LEAKED lmao", function()
     loadstring(game:HttpGet("https://raw.githubusercontent.com/CloudsHub-lol/Clouds-Hub/main/Hash%20lol"))();    
    end)
+   
+   MainSection:NewButton("Fly and Noclip GUI", "Lets you fly and noclip", function()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/CloudsHub-lol/Clouds-Hub/main/Fly%20and%20noclip%20string"))();    
+   end)
 
 
     --LOCAL PLAYER
