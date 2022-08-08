@@ -17,7 +17,7 @@ local Window = Library.CreateLib("Clouds Hub", "Midnight")
     loadstring(game:HttpGet("https://raw.githubusercontent.com/CloudsHub-lol/Dark-Dex-String/main/Dark%20Dex%20v4"))();    
    end)
    
-   MainSection:NewButton("Audio Hash", "Hash LEAKED lmao", function()
+   MainSection:NewButton("Audio Hash V2", "Hash LEAKED lmao", function()
     loadstring(game:HttpGet("https://raw.githubusercontent.com/CloudsHub-lol/Clouds-Hub/main/Hash%20lol"))();    
    end)
 
