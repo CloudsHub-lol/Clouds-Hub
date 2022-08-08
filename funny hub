@@ -99,8 +99,18 @@ MainSection:NewButton("Dark Dex V4", "Universal FPS GUI", function()
     end)
     
     YBASection:NewButton("YBA Sucks Ass", "Ass", function()
-        
+        loadstring(game:HttpGet("https://raw.githubusercontent.com/Tobias020108Back/YBA-AUT/main/YBA-GUI-Rewrite.lua"))()    
     end)
+    
+    
+    --VR
+    local VR = Window:NewTab("VR")
+    local VRSection = VR:NewSection("Note: You need a VR headset for these to work")
+    
+    VRSection:NewButton("Gorilla Tag", "monke", function()
+        loadstring(game:HttpGet("https://raw.githubusercontent.com/CloudsHub-lol/Clouds-Hub/main/RoRilla%20String"))()    
+    end)
+    
     
     
     --Other GUIs
@@ -111,3 +121,4 @@ MainSection:NewButton("Dark Dex V4", "Universal FPS GUI", function()
         loadstring(game:HttpGet("https://raw.githubusercontent.com/HeyGyt/simplity1/main/main"))()
     end)
     
+   
